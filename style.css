@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgb(91, 99, 95);
+}
+.navbar-1{
+    background-color: rgb(180, 90, 37);
+    border-radius: 10%;
+}
+.navbar-2{
+    background-color: rgb(180, 90, 37);
+    border-radius: 10%
+}
+.navbar-3{
+    background-color: rgb(180, 90, 37);
+    border-radius: 10%
+}
+.navbar-1:hover{
+    color: rgb(221, 214, 214);
+    animation-name: te;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transition-duration: 1.5s;
+}
+.navbar-2:hover{
+    color: rgb(221, 214, 214);
+    animation-name: te;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transition-duration: 1.5s;
+}
+.navbar-3:hover{
+    color: rgb(221, 214, 214);
+    animation-name: te;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transition-duration: 1.5s;
+}
+@keyframes te {
+    0%{
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        border-radius: 15%;
+    }
+    25%{
+        padding-top: 1.5px;
+        padding-bottom: 1.5px;
+        padding-left: 1.5px;
+        padding-right: 1.5px;
+        border-radius: 20%;
+    }
+    50%{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-radius: 22%;
+    }
+    75%{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 23%;
+    }
+    100%{
+        padding-top: 3.5px;
+        padding-bottom: 3.5px;
+        padding-left: 3.5px;
+        padding-right: 3.5px;
+        border-radius: 25%;
+    }
+}
