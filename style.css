@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+    color: #1a2233;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .navbar{
     display: flex;
     flex-direction: row;
@@ -9,78 +14,124 @@
     padding-bottom: 15px;
     list-style: none;
     justify-content: space-evenly;
-    background-color: rgb(91, 99, 95);
+    background-color: #1a2233;
 }
 .navbar-1{
-    background-color: rgb(180, 90, 37);
-    border-radius: 10%;
+    background-color: #9ba8c2;
+    border-radius: 30%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
 }
 .navbar-2{
-    background-color: rgb(180, 90, 37);
-    border-radius: 10%
+    background-color: #9ba8c2;
+    border-radius: 30%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
 }
 .navbar-3{
-    background-color: rgb(180, 90, 37);
-    border-radius: 10%
+    background-color: #9ba8c2;
+    border-radius: 30%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+.navbar-4{
+    background-color: #9ba8c2;
+    border-radius: 30%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+.navbar-5{
+    background-color: #9ba8c2;
+    border-radius: 30%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
 }
 .navbar-1:hover{
-    color: rgb(221, 214, 214);
+    color: #1a2233;
+    background-color: #a5b4fc;
     animation-name: te;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    transition-duration: 1.5s;
+    transition-duration: 2s;
 }
 .navbar-2:hover{
-    color: rgb(221, 214, 214);
+    color: #1a2233;
+    background-color: #a5b4fc;
     animation-name: te;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    transition-duration: 1.5s;
+    transition-duration: 2s;
 }
 .navbar-3:hover{
-    color: rgb(221, 214, 214);
+    color: #1a2233;
+    background-color: #a5b4fc;
     animation-name: te;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    transition-duration: 1.5s;
+    transition-duration: 2s;
+}
+.navbar-4:hover{
+    color: #1a2233;
+    background-color: #a5b4fc;
+    animation-name: te;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transition-duration: 2s;
+}
+.navbar-5:hover{
+    color: #1a2233;
+    background-color: #a5b4fc;
+    animation-name: te;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transition-duration: 2s;
 }
 @keyframes te {
     0%{
-        padding-top: 1px;
-        padding-bottom: 1px;
-        padding-left: 1px;
-        padding-right: 1px;
-        border-radius: 15%;
+        transform: scale(1);
+        border-radius: 35%;
+        color: azure;
     }
     25%{
-        padding-top: 1.5px;
-        padding-bottom: 1.5px;
-        padding-left: 1.5px;
-        padding-right: 1.5px;
-        border-radius: 20%;
+        transform: scale(1.05);
+        border-radius: 40%;
+        color: #1a2233;
     }
     50%{
-        padding-top: 2px;
-        padding-bottom: 2px;
-        padding-left: 2px;
-        padding-right: 2px;
-        border-radius: 22%;
+        transform: scale(1.1);
+        border-radius: 47%;
+        color: azure;
     }
     75%{
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 3px;
-        padding-right: 3px;
-        border-radius: 23%;
+        transform: scale(1.13);
+        border-radius: 48%;
+        color: #1a2233;
     }
     100%{
-        padding-top: 3.5px;
-        padding-bottom: 3.5px;
-        padding-left: 3.5px;
-        padding-right: 3.5px;
-        border-radius: 25%;
+        transform: scale(1.15);
+        border-radius: 50%;
     }
+}
+.titre{
+    text-align: center;
+    font-size: 2em;
+    color: #1a2233;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
