@@ -1,3 +1,10 @@
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 a{
     text-decoration: none;
     color: #1a2233;
@@ -8,13 +15,12 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: -20px;
-    margin-right: -20px;
+    margin-right: -7px;
     margin-top: -20px;
     padding-top: 25px;
     padding-bottom: 15px;
     list-style: none;
     justify-content: space-evenly;
-    background-color: #1a2233;
 }
 .navbar-1{
     background-color: #9ba8c2;
@@ -41,14 +47,6 @@ a{
     padding-right: 2.5px;
 }
 .navbar-4{
-    background-color: #9ba8c2;
-    border-radius: 30%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 2.5px;
-    padding-right: 2.5px;
-}
-.navbar-5{
     background-color: #9ba8c2;
     border-radius: 30%;
     padding-bottom: 5px;
@@ -92,15 +90,6 @@ a{
     animation-iteration-count: infinite;
     transition-duration: 2s;
 }
-.navbar-5:hover{
-    color: #1a2233;
-    background-color: #a5b4fc;
-    animation-name: te;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    transition-duration: 2s;
-}
 @keyframes te {
     0%{
         transform: scale(1);
@@ -134,4 +123,80 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.skill-row {
+  display: flex;
+  gap: 1rem;
+}
+.nom-skill {
+  font-weight: 575;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: right;
+}
+.sous-nom-skill {
+  font-weight: 55;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  text-align: right;
+}
+.conteneur {
+  position: relative;
+  width: 250px;
+  height: 20px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  margin-top: 1.5px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 8px #0001;
+}
+.sous-conteneur {
+  position: relative;
+  width: 150px;
+  height: 15px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  margin-top: 3.25px;
+  box-shadow: 0 2px 8px #0001;
+}
+.sous-contenue{
+    background-image: url(background-1.png);
+    background-position: center;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    margin-right: 1600px;
+    box-shadow: 0 2px 8px #0001;
+}
+.bar {
+  height: 100%;
+  background: linear-gradient(90deg, #2563eb, #60a5fa);
+  border-radius: 10px 0 0 10px;
+  transition: width 0.5s;
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #1a2233;
+  font-size: 0.95em;
+  pointer-events: none;
+}
+li {
+    list-style: none;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #1a2233;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
